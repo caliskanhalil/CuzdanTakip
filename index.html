@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bireysel Cüzdan Uygulaması</title>
+  </head>
+  <body>
+    <h1>🧾 Bireysel Cüzdan Uygulaması</h1>
+    <div class="moneyInput">
+      <div class="gelirInput">
+        <input type="text" id="gelirTuru" placeholder="Gelir Türü Girin" />
+        <input type="number" id="gelir" placeholder="Gelirinizi Girin" />
+        <button id="gelirBtn">Ekle</button>
+      </div>
+      <div class="giderInput">
+        <input type="text" id="giderTuru" placeholder="Gider Türü Girin" />
+        <input type="number" id="gider" placeholder="Giderinizi Girin" />
+
+        <button id="giderBtn">Ekle</button>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>📌 Varsayılan Bütçe</h3>
+      <p><strong>Toplam Bütçe:</strong> 200 ₺</p>
+    </div>
+
+    <div class="box" id="gelirBox">
+      <h3>💸 Gelirler</h3>
+      <!-- <div class="expense-item" id="gelirKutusu">
+        <span class="gelirType">Yemek</span>
+        <span class="gelirPrice">40 ₺</span>
+      </div> -->
+    </div>
+
+    <div class="box" id="giderBox">
+      <h3>💸 Giderler</h3>
+      <!-- <div class="expense-item" class="giderKutusu">
+        <span class="giderType">Yemek</span>
+        <span class="giderPrice">40 ₺</span>
+      </div> -->
+    </div>
+
+    <div class="summary">Toplam Harcama: 90 ₺ | Kalan Bütçe: 110 ₺</div>
+    <script src="script.js"></script>
+  </body>
+</html>

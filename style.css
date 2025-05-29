@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+    padding: 30px;
+}
+
+h1 {
+    color: #222;
+}
+
+.moneyInput {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+.moneyInput input {
+    padding: 10px 14px;
+    border: 2px solid #d0d7de;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    flex: 1 1 200px;
+    transition: 0.3s ease;
+}
+
+.moneyInput input:focus {
+    border-color: #0077ff;
+    box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.1);
+}
+
+.moneyInput button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.moneyInput button:hover {
+    background: #005fcc;
+}
+
+.box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    margin-bottom: 10px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.summary {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2c3e50;
+}
