@@ -20,7 +20,8 @@ h1 {
     justify-content: space-between;
 }
 
-.moneyInput input {
+.moneyInput input,
+select {
     padding: 10px 14px;
     border: 2px solid #d0d7de;
     border-radius: 8px;
@@ -62,6 +63,15 @@ h1 {
     margin-bottom: 10px;
 }
 
+.box button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2c3e50;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
 .expense-item {
     display: flex;
     justify-content: space-between;
@@ -74,4 +84,77 @@ h1 {
     margin-top: 20px;
     font-size: 18px;
     color: #2c3e50;
+}
+
+
+.gelirCategoryModal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #222222ad;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.gelirCategoryModal .container {
+    position: relative;
+    background-color: white;
+    padding: 50px;
+    border-radius: 7x;
+}
+
+.gelirCategoryModal .container a {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.gelirCategoryModal .container button,
+input {
+    padding: 10px 20px;
+
+}
+
+
+
+
+
+
+
+.giderCategoryModal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #222222ad;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.giderCategoryModal .container {
+    position: relative;
+    background-color: white;
+    padding: 50px;
+    border-radius: 7x;
+}
+
+.giderCategoryModal .container a {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.giderCategoryModal .container button,
+input {
+    padding: 10px 20px;
+
 }
